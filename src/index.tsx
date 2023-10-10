@@ -258,6 +258,7 @@ export class Pusher {
     return PusherWebsocketReactNative.initialize({
       apiKey: args.apiKey,
       cluster: args.cluster,
+      host: args.host,
       authEndpoint: args.authEndpoint,
       useTLS: args.useTLS,
       activityTimeout: args.activityTimeout,

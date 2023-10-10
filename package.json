@@ -1,6 +1,6 @@
 {
   "name": "react-native-pusher",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A wrapper around @pusher/pusher-websocket-react-native to set custom host",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
