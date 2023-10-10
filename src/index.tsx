@@ -130,6 +130,7 @@ export class Pusher {
   public init(args: {
     apiKey: string;
     cluster: string;
+    host?: string;
     authEndpoint?: string;
     useTLS?: boolean;
     activityTimeout?: Number;

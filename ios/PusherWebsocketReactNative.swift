@@ -49,7 +49,7 @@ import Foundation
         }
         var host:PusherHost = .defaultHost
         if args["host"] is String {
-            host = .host(args["host"] as! String)
+            host = args["host"] as! String
         } else if args["cluster"] != nil {
             host = .cluster(args["cluster"] as! String)
         }

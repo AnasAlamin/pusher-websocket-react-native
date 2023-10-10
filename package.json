@@ -1,7 +1,7 @@
 {
   "name": "@pusher/pusher-websocket-react-native",
-  "version": "1.2.3",
-  "description": "Pusher Channels Client for React Native",
+  "version": "1.0.0",
+  "description": "A wrapper around @pusher/pusher-websocket-react-native to set custom host",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
   "types": "lib/typescript/index.d.ts",
@@ -36,13 +36,10 @@
     "ios",
     "android"
   ],
-  "repository": "https://github.com/pusher/pusher-websocket-react-native",
-  "author": "Pusher <info@pusher.com> (https://pusher.com)",
+  "repository": "https://github.com/AnasAlamin/pusher-websocket-react-native",
+  "author": "Anas Alamin",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/pusher/pusher-websocket-react-native/issues"
-  },
-  "homepage": "https://github.com/pusher/pusher-websocket-react-native#readme",
+  "homepage": "https://github.com/AnasAlamin/pusher-websocket-react-native#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
